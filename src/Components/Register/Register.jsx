@@ -35,7 +35,8 @@ const Register = () => {
     }
 
     return (
-    <div className="card bg-base-100 mx-auto w-full max-w-sm shrink-0 shadow-2xl">
+        <div className=''>
+            <div className="card bg-base-100 mx-auto  w-full max-w-sm shrink-0 shadow-2xl">
         <h1 className="text-3xl text-center font-bold">Register!</h1>
       <div className="card-body">
         <fieldset className="fieldset">
@@ -53,6 +54,8 @@ const Register = () => {
 </button>
       </div>
     </div>
+        </div>
+    
     );
 };
 

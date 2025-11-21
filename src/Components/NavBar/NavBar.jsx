@@ -50,7 +50,7 @@ const NavBar = () => {
   </div>
   <div className="navbar-end">
     {   user ? 
-        <Link className="btn">Sign Out</Link> :
+        <Link onClick={handleSignOut} className="btn .btn-primary">Sign Out</Link> :
         <Link className="btn">Login</Link> 
     }
   </div>
